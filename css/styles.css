@@ -53,8 +53,9 @@ body {
 #topnav ul li{	display:inline; }
 #topnav ul li a{	font-size:20px; float:left; padding:10px 15px; text-decoration: none; }
 
-/*Banner*/
-#bannerArea{	width:100%; height:425px; display:block;}
+/*Content*/
+#content{	width:100%; height:auto; display:block; }
+#bannerArea{	width:100%; height:425px; display:block; }
 #bannerArea img{	width:90%; height:auto; margin:5% auto; display:block; }
 #bannerArea h2{	margin-left:5%; margin-bottom:5px; font-size:20px; }
 #bannerArea a{	display:block; margin:5% 0 0 5%; font-size:14px; }
@@ -63,11 +64,11 @@ body {
 #versicherung{	border-bottom:3px #FF6000 solid; background-color:#EEEEEE; height:350px; width:30%; float:left; margin:10px 1.25% 0 2.5%;}
 #finanzierung{	border-bottom:3px #FF6000 solid; background-color:#EEEEEE; height:350px; width:30%; float:left; margin:10px 1.25% 0 1.25%;}
 #vorsorge{		border-bottom:3px #FF6000 solid; background-color:#EEEEEE; height:350px; width:30%; float:left; margin:10px 2.5% 0 1.25%;}
+#mainArea{		width:100%; height:400px; clear:both; display:block; margin-top:10px;}
+#mainArea h1{	text-align:center; font-size:30px; font-weight:bold;}
+#mainArea img{	width:500px; display:block; margin: 10px auto;}
 
-#content{		width:100%; height:500px; clear:both; display:block; margin-top:10px;}
-#content h1{	text-align:center; font-size:30px; font-weight:bold;}
-#content img{	width:500px; display:block; margin: 10px auto;}
-
+/*Footer*/
 #footer{	width:100%; height:25px; background-color:#EEEEEE; }
 #footer p{	text-align:center;}
 

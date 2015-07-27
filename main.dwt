@@ -1,7 +1,5 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html>
-
-	<!-- #BeginTemplate "main.dwt" -->
 
 	<head>
 		<script type="text/javascript" src="js/jquery.js"></script>
@@ -86,5 +84,4 @@
 			</div>			
 		</div>					
 	</body>
-<!-- #EndTemplate -->
 </html>
