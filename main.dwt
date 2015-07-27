@@ -34,7 +34,7 @@
 			
 			<div id="topnav">
 				<ul>
-					<li><a href="main.html">STARTSEITE</a></li>
+					<li><a href="index.html">STARTSEITE</a></li>
 					<li><a href="versicherung.html">VERSICHERUNG</a></li>
 					<li><a href="finanzierung.html">FINANZIERUNG</a></li>
 					<li><a href="vorsorge.html">VORSORGE</a></li>
