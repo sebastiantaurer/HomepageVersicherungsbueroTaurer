@@ -22,77 +22,26 @@ time, mark, audio, video {
 body {
     background-color: #E0E0E0;
     font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-
 }
 
-#wrapper{
-	width:1000px; 
-	margin: 0px auto; 
-	background-color:#FFFFFF; 
-	border-top-left-radius: 10px; 
-	border-top-right-radius: 10px;
-}
+#wrapper{	width:1000px; margin: 0px auto; background-color:#FFFFFF;
+			border-top-left-radius: 10px; border-top-right-radius: 10px; }
+/*Top*/
+#top{	width:100%; height:200px; margin-top:10px; position:relative; }
+#logo img{	width:170px; height:170px; margin: 15px; float:left; }
+#socialMedia{	position: absolute; right:0; }
+#socialMedia p{	text-align:right; margin: 0 0 5px 0; }
+#socialMedia img{	width:25px; height:25px; padding: 10px 10px 0px 0px; bottom:200px; right:10px; }
+#title h1{	font-size:50px; position:absolute; bottom:70px; right:10px; }
+#telNumber h1{	font-size:30px; color:#FF6600; position:absolute; bottom:10px; right:10px; }
 
-#top{
-	width:100%;
-	height:200px;
-	margin-top:10px;
-	position:relative;
-}
-
-#logo img{
-	width:170px;
-	height:170px;
-	margin: 15px;
-	float:left;
-}
-
-#socialMedia{
-	position: absolute;
-	right:0;
-}
-
-#socialMedia p{
-	text-align:right;
-	margin: 0 0 5px 0;
-}
-
-#socialMedia img{
-	width:25px;
-	height:25px;
-	padding: 10px 10px 0px 0px;
-	bottom:200px;
-	right:10px;
-}
-
-#title h1{
-	font-size:50px;
-	position:absolute;
-	bottom:70px;
-	right:10px;
-
-}
-
-#telNumber h1{
-	font-size:30px;
-	color:#FF6600;
-	position:absolute;
-	bottom:10px;
-	right:10px;
-}
-
-
-#topnav{
-	background-color:#333333;
-	clear:both;
-}
-
-#topnav a:link		{ color:#ffffff; }
-#topnav a:visited	{ color:#ffffff; }
-#topnav a:active	{ color:#ffffff; }
-#topnav a:hover		{ color:#ffffff; background-color:#FF6600; }
-#topnav a:focus		{ color:#ffffff; }
-
+/*Navigation Bar*/
+#topnav{	background-color:#333333; clear:both; }
+#topnav a:link		{ color:#FFFFFF; }
+#topnav a:visited	{ color:#FFFFFF; }
+#topnav a:active	{ color:#FFFFFF; }
+#topnav a:hover		{ color:#FFFFFF; background-color:#FF6600; }
+#topnav a:focus		{ color:#FFFFFF; }
 #topnav ul {
 	list-style-type: none;
     width:100%;
@@ -100,54 +49,26 @@ body {
     margin:0px;
     background-color:#333333;
     border-bottom:3px #FF6600 solid;
-
 }
+#topnav ul li{	display:inline; }
+#topnav ul li a{	font-size:20px; float:left; padding:10px 15px; text-decoration: none; }
 
-#topnav ul li {
-	display:inline;
-}
+/*Banner*/
+#bannerArea{	width:100%; height:425px; display:block;}
+#bannerArea img{	width:90%; height:auto; margin:5% auto; display:block; }
+#bannerArea h2{	margin-left:5%; margin-bottom:5px; font-size:20px; }
+#bannerArea a{	display:block; margin:5% 0 0 5%; font-size:14px; }
+#bannerArea a:link{	color:#FF6000; }
+#bannerArea p{	margin:0 5%; font-size:14px; }
+#versicherung{	border-bottom:3px #FF6000 solid; background-color:#EEEEEE; height:350px; width:30%; float:left; margin:10px 1.25% 0 2.5%;}
+#finanzierung{	border-bottom:3px #FF6000 solid; background-color:#EEEEEE; height:350px; width:30%; float:left; margin:10px 1.25% 0 1.25%;}
+#vorsorge{		border-bottom:3px #FF6000 solid; background-color:#EEEEEE; height:350px; width:30%; float:left; margin:10px 2.5% 0 1.25%;}
 
-#topnav ul li a{
-	font-size:20px;
-	float:left;
-	padding:10px 15px;
-	text-decoration: none;
-}
+#content{		width:100%; height:500px; clear:both; display:block; margin-top:10px;}
+#content h1{	text-align:center; font-size:30px; font-weight:bold;}
+#content img{	width:500px; display:block; margin: 10px auto;}
 
-#bannerArea img{
-	width:90%;
-	height:45%;
-	margin:5% auto;
-	display:block;
-}
-
-#bannerArea h2{
-	margin-left:5%;
-	margin-bottom:5px;
-	font-size:20px;
-}
-
-#bannerArea a{
-	display:block;
-	margin-left:5%;
-	margin-top:5%;
-	font-size:14px;
-}
-#bannerArea a:link	{ color:#FF6000;}
-
-#bannerArea p{
-	margin:0 5%;
-	font-size:14px;
-}
-
-
-#versicherung{	background-color:#EEEEEE; height:350px; width:30%; float:left; margin:10px 1.25% 0 2.5%;}
-#finanzierung{	background-color:#EEEEEE; height:350px; width:30%; float:left; margin:10px 1.25% 0 1.25%;}
-#vorsorge{		background-color:#EEEEEE; height:350px; width:30%; float:left; margin:10px 2.5% 0 1.25%;}
-
-
-
-
-
+#footer{	width:100%; height:25px; background-color:#EEEEEE; }
+#footer p{	text-align:center;}
 
 
