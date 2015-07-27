@@ -36,7 +36,7 @@ body {
 #telNumber h1{	font-size:30px; color:#FF6600; position:absolute; bottom:10px; right:10px; }
 
 /*Navigation Bar*/
-#topnav{	background-color:#333333; clear:both; }
+#topnav{	background-color:aqua; clear:both; height:46px;}
 #topnav a:link		{ color:#FFFFFF; }
 #topnav a:visited	{ color:#FFFFFF; }
 #topnav a:active	{ color:#FFFFFF; }
@@ -67,9 +67,18 @@ body {
 #mainArea{		width:100%; height:400px; clear:both; display:block; margin-top:10px;}
 #mainArea h1{	text-align:center; font-size:30px; font-weight:bold;}
 #mainArea img{	width:500px; display:block; margin: 10px auto;}
+/*Team*/
+#membercontent{	width:100%; height:auto; /*background-color:blue;*/}
+#member1,#member2,#member3,#member4,#member5{	width:70%; height:200px; padding:10px 0 10px 50px; /*background-color:aqua;*/ margin:10px;}
+#membercontent img{	float:left; display:block; width:200px; height:200px;border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;}
+#membercontent h1{	display:block;font-size:22px; font-weight:bold; display:block; margin:0 0 10px 220px;}
+#membercontent h2{	display:block;font-size:18px; font-weight:bold; display:block; margin:0 0 10px 220px;}
+#membercontent p{	display:block;font-size:14px; display:block; margin:0 0 5px 220px;}
+#membercontent .end{	clear:both; }
+/*EndTeam*/
 
 /*Footer*/
-#footer{	width:100%; height:25px; background-color:#EEEEEE; }
-#footer p{	text-align:center;}
+#footer{	width:100%; height:25px; background-color:#EEEEEE;}
+#footer p{	text-align:center; }
 
 
