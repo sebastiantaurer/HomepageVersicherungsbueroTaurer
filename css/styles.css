@@ -53,8 +53,8 @@ body {
 #topnav ul li{	display:inline; }
 #topnav ul li a{	font-size:20px; float:left; padding:10px 15px; text-decoration: none; }
 
-/*Content*/
-#content{	width:100%; height:auto; display:block; }
+/*Startseite*/
+#indexcontent{	width:100%; height:auto; display:block; }
 #bannerArea{	width:100%; height:425px; display:block; }
 #bannerArea img{	width:90%; height:auto; margin:5% auto; display:block; }
 #bannerArea h2{	margin-left:5%; margin-bottom:5px; font-size:20px; }
