@@ -52,6 +52,7 @@ body {
 }
 #topnav ul li{	display:inline; }
 #topnav ul li a{	font-size:20px; float:left; padding:10px 15px; text-decoration: none; }
+#topnav a.active{	background-color:#808080;}
 
 /*Startseite*/
 #indexcontent{	width:100%; height:auto; display:block; }
@@ -71,6 +72,20 @@ body {
 #mainArea{		width:100%; height:500px; clear:both; display:block; margin-top:10px;}
 #mainArea h1{	text-align:center; font-size:30px; font-weight:bold;}
 #mainArea img{	width:500px; display:block; margin: 10px auto;}
+
+/*Versicherung, Finanzierung, Vorsorge, Kontakt */
+#versicherungcontent, #finanzierungcontent, #vorsorgecontent, #contactcontent{margin:10px;}
+#versicherungcontent .text, #finanzierungcontent .text, #vorsorgecontent .text{float:left; width:650px;}
+#versicherungcontent .image, #finanzierungcontent .image, #vorsorgecontent .image{float: right; width:300px;}
+#versicherungcontent .image img, #finanzierungcontent .image img, #vorsorgecontent .image img{ width:inherit; height:auto;}
+#versicherungcontent br, #finanzierungcontent br, #vorsorgecontent br{clear:both;}
+#versicherungcontent h1, #finanzierungcontent h1, #vorsorgecontent h1, #contactcontent h1{font-size:30px; color:#FF6600; padding-bottom:10px;}
+#versicherungcontent h2, #finanzierungcontent h2, #vorsorgecontent h2, #contactcontent h2{font-size:20px; font-weight:bold; padding-top:10px;}
+#versicherungcontent h3, #finanzierungcontent h3, #vorsorgecontent h3, #contactcontent h3{font-size:18px; font-weight:bold; padding:7px 0px;}
+#versicherungcontent ul, #finanzierungcontent ul, #vorsorgecontent ul{padding-left:40px;}
+#versicherungcontent li, #finanzierungcontent li, #vorsorgecontent li{padding-top:10px;}
+#contactcontent a{color:black;}
+
 /*Team*/
 #membercontent{	width:100%; height:auto; /*background-color:blue;*/}
 #member1,#member2,#member3,#member4,#member5{	width:70%; height:200px; padding:10px 0 10px 50px; /*background-color:aqua;*/ margin:10px;}

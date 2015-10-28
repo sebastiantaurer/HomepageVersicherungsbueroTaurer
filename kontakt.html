@@ -9,7 +9,7 @@
 		<link rel="shortcut icon" href="images/TMLogo300x300.png">
 		<!-- #BeginEditable "doctitle" -->
 		<title>Versicherungsb&uuml;ro Taurer</title>
-	<!-- #EndEditable -->
+		<!-- #EndEditable -->
 	</head>
 	
 	<body>
@@ -32,20 +32,37 @@
 			
 			<div id="topnav">
 				<ul>
+					<!-- #BeginEditable "TopNav" -->
 					<li><a href="index.html">STARTSEITE</a></li>
 					<li><a href="versicherung.html">VERSICHERUNG</a></li>
 					<li><a href="finanzierung.html">FINANZIERUNG</a></li>
 					<li><a href="vorsorge.html">VORSORGE</a></li>
 					<li><a href="team.html">TEAM</a></li>
-					<li><a href="kontakt.html">KONTAKT</a></li>
+					<li><a class="active" href="kontakt.html">KONTAKT</a></li>
+					<!-- #EndEditable -->
 				</ul>					
 			</div>
 			
 			<!-- #BeginEditable "Content" -->
 			
 			<div id="contactcontent">
-				
+				<h1>Kontakt</h1>
+				<h2>Versicherungsb&uuml;ro Taurer</h2>
+				<br>
+				<p>Feldstraße 5</p>
+				<p>9800 Spittal an der Drau</p>
+				<p>Telefon: 04762/33880</p>
+				<p>Fax: 04762/33880 - 20</p>	
+				<h3>E-Mail: <a href="mailto:michael.taurer@taurer.eu"> michael.taurer@taurer.eu</a></h3>		
 			</div>
+			
+			<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+			<div style='overflow:hidden;height:400px;width:1000px;'>
+				<div id='gmap_canvas' style='height:400px;width:1000px;'></div>
+				<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+			</div>
+			<a href='http://www.betriebshaftpflicht.at'>auf www.Betriebshaftpflicht.at</a>
+			<script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=fac48483d1a8d4aa4e768050a1c858e5af886b9c'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(46.8012561,13.491906200000017),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(46.8012561,13.491906200000017)});infowindow = new google.maps.InfoWindow({content:'<strong>Versicherungsbüro Michael Taurer</strong><br>Feldstraße 5<br>9800 Spittal an der Drau<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 			
 			<!-- #EndEditable -->
 			

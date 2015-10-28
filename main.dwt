@@ -7,7 +7,7 @@
 		<link rel="shortcut icon" href="images/TMLogo300x300.png">
 		<!-- #BeginEditable "doctitle" -->
 		<title>Versicherungsb&uuml;ro Taurer</title>	
-	<!-- #EndEditable -->
+		<!-- #EndEditable -->
 	</head>
 	
 	<body>
@@ -30,12 +30,14 @@
 			
 			<div id="topnav">
 				<ul>
+					<!-- #BeginEditable "TopNav" -->
 					<li><a href="index.html">STARTSEITE</a></li>
 					<li><a href="versicherung.html">VERSICHERUNG</a></li>
 					<li><a href="finanzierung.html">FINANZIERUNG</a></li>
 					<li><a href="vorsorge.html">VORSORGE</a></li>
 					<li><a href="team.html">TEAM</a></li>
 					<li><a href="kontakt.html">KONTAKT</a></li>
+					<!-- #EndEditable -->
 				</ul>					
 			</div>
 			
