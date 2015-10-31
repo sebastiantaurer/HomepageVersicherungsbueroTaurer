@@ -32,7 +32,9 @@ body {
 #socialMedia{	position: absolute; right:0; }
 #socialMedia p{	text-align:right; margin: 0 0 5px 0; }
 #socialMedia img{	width:25px; height:25px; padding: 10px 10px 0px 0px; bottom:200px; right:10px; }
-#title h1{	font-size:50px; position:absolute; bottom:70px; right:10px; }
+#title h1{	font-size:35px; position:absolute; bottom:125px; right:10px; }
+#title h2{	font-size:35px; position:absolute; bottom:80px; right:10px; }
+#title .orangeLetter{color:#FF6600;}
 #telNumber h1{	font-size:30px; color:#FF6600; position:absolute; bottom:10px; right:10px; }
 
 /*Navigation Bar*/
