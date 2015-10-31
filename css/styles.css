@@ -89,9 +89,10 @@ body {
 /*Team*/
 #membercontent{	width:100%; height:auto; /*background-color:blue;*/}
 #member1,#member2,#member3,#member4,#member5{	width:70%; height:200px; padding:10px 0 10px 50px; /*background-color:aqua;*/ margin:10px;}
-#membercontent img{	float:left; display:block; width:200px; height:200px;border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;}
-#membercontent h1{	display:block;font-size:22px; font-weight:bold; display:block; margin:0 0 10px 220px;}
-#membercontent h2{	display:block;font-size:18px; font-weight:bold; display:block; margin:0 0 10px 220px;}
+#membercontent img{	float:left; display:block; width:200px; height:200px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;}
+#membercontent h1{	display:block;font-size:22px; font-weight:bold; display:block; margin:0 0 5px 220px;}
+#membercontent h2{	display:block;font-size:18px; font-weight:bold; display:block; margin:0 0 15px 220px;}
+#membercontent h3{	display:block;font-size:14px; display:block; margin:0 0 5px 220px; font-weight:bold;}
 #membercontent p{	display:block;font-size:14px; display:block; margin:0 0 5px 220px;}
 #membercontent .end{	clear:both; }
 /*EndTeam*/
