@@ -73,7 +73,13 @@ body {
 #vorsorge{		border-bottom:3px #FF6000 solid; background-color:#EEEEEE; height:375px; width:30%; float:left; margin:10px 2.5% 0 1.25%;}
 #mainArea{		width:100%; height:500px; clear:both; display:block; margin-top:10px;}
 #mainArea h1{	text-align:center; font-size:30px; font-weight:bold;}
+#mainArea h2{	text-align:center; font-size:25px; font-weight:bold;}
 #mainArea img{	width:500px; display:block; margin: 10px auto;}
+
+#mainArea2{		width:100%; height:800px; clear:both; display:block; margin-top:10px;}
+#mainArea2 h1{	text-align:center; font-size:30px; font-weight:bold;}
+#mainArea2 h2{	text-align:center; font-size:25px; font-weight:bold;}
+#mainArea2 img{	width:500px; display:block; margin: 10px auto;}
 
 /*Versicherung, Finanzierung, Vorsorge, Kontakt */
 #versicherungcontent, #finanzierungcontent, #vorsorgecontent, #contactcontent{margin:10px;}
